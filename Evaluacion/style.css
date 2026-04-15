@@ -1,0 +1,142 @@
+/* RESET Y ESTILOS BASE */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #000;
+    padding: 15px;
+    background-color: #fff;
+}
+
+.logo-box {
+    border: 2px solid #000;
+    padding: 5px 15px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.company-name {
+    font-weight: 800;
+    margin-left: 10px;
+    font-size: 1.2rem;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-item a {
+    text-decoration: underline;
+    color: #0066cc;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+/* BANNER */
+.hero-banner {
+    border: 2px solid #000;
+    border-top: none;
+    padding: 30px;
+    text-align: right; /* Alineado a la derecha como el esquema */
+    background-color: #fff;
+}
+
+/* CONTENEDOR LOGIN (CENTRADOR) */
+.login-main-container {
+    border: 2px solid #000;
+    border-top: none;
+    padding: 80px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+.login-card {
+    border: 1px solid #000;
+    padding: 40px 60px;
+    width: 100%;
+    max-width: 500px;
+}
+
+.login-card h3 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+/* FORMULARIO */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #000;
+    font-size: 1rem;
+}
+
+/* BOTÓN CENTRADO */
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.btn-submit {
+    background-color: #d9d9d9; /* Gris como en tu imagen */
+    border: 2px solid #000;
+    padding: 10px 50px;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn-submit:hover {
+    background-color: #bcbcbc;
+}
+
+/* FOOTER */
+.footer {
+    display: flex;
+    border: 2px solid #000;
+    border-top: none;
+    background-color: #fff;
+}
+
+.footer-label {
+    border-right: 2px solid #000;
+    padding: 15px 20px;
+    font-weight: bold;
+}
+
+.footer-credit {
+    flex-grow: 1;
+    text-align: center;
+    padding: 15px;
+    font-weight: bold;
+}
